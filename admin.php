@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Admin Panel</title>
-    <!-- Add CSS links here -->
+    <!-- CSS link -->
 </head>
 <body>
     <h2>Admin Panel</h2>
