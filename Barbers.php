@@ -8,7 +8,7 @@ class Barber {
     }
     // replace "barbers" with table name from db
     public function createBarber($name) {
-        $stmt = $this->db->prepare("INSERT INTO barber (name) VALUES (?)");
+        $stmt = $this->db->prepare("INSERT INTO barber (barbername) VALUES (?)");
         return $stmt->execute([$name]);
     }
 
@@ -27,4 +27,5 @@ class Barber {
         return $stmt->execute([$id]);
     }
 }
+$barberModel = new Barber($db);
 ?>

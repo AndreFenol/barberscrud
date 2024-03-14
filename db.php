@@ -1,5 +1,5 @@
 <?php
-$host = '127.0.0.1'; // Hostname
+$host = 'localhost'; // Hostname
 $dbname = 'appointmentsystem'; // Database name
 $username = 'root'; // Database username
 $password = ''; // Database password
