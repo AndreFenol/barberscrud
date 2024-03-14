@@ -71,6 +71,6 @@ if(isset($_GET['action'])) {
     }
 }
 
-// Retrieve appointments
-$appointments = $appointment->getAppointments();
+
+
 ?>
