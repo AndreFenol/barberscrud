@@ -27,3 +27,4 @@ class Service {
         return $stmt->execute([$id]);
     }
 }
+?>

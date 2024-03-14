@@ -27,3 +27,4 @@ class Appointment {
         return $stmt->execute([$id]);
     }
 }
+?>

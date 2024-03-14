@@ -13,7 +13,7 @@ class Barber {
     }
 
     public function getBarbers() {
-        $stmt = $this->db->query("SELECT * FROM 'barber'"); 
+        $stmt = $this->db->query("SELECT * FROM barber"); 
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
@@ -27,4 +27,4 @@ class Barber {
         return $stmt->execute([$id]);
     }
 }
-
+?>

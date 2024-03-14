@@ -66,3 +66,4 @@ class AdminController {
         return $this->appointmentModel->deleteAppointment($id);
     }
 }
+?>
